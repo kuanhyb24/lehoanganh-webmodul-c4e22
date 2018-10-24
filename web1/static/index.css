@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+* {
+    font-family: 'Mali', cursive;
+
+}
+h2 { 
+    color: 	#59249e;
+
+}
+#root {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1540183093623-1b8b10ae353f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e25fa300864260b3a5581f9c3c316b25&auto=format&fit=crop&w=334&q=100);
+}

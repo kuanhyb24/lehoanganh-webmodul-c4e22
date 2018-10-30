@@ -4,12 +4,12 @@ html, body {
 * {
     font-size: 1.1rem;
 }
-#root {
+#root, .container_center {
     width: 100%;;
     height: 100%;
     background-color: lightblue;
     display: flex;
-    flex-flow: row; /* dòng chạy theo hàng row .*/
+    flex-flow: column; /* dòng chạy theo hàng row .*/
     justify-content: center;
     align-items: center;
 }
@@ -35,9 +35,22 @@ button {
 }
 .input_choice {
     width: 40%;
-    border-radius: 10px;
+    border-radius: 4px;
     margin-bottom: 8px;
     
+}
+#btn_submit_poll{
+    margin-top: 16px;
+    background-color: brown;
+}
+#input_question{
+    margin-bottom: 16px;
+    width: 29%;
+    border-radius: 4px;
+}
+input{
+    border-width: 1px;
+    padding-left: 4px;
 }
 
 
